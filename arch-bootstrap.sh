@@ -68,6 +68,10 @@ CheckSpace
 [core]
 SigLevel = Never
 Server = http://mirror.archlinuxarm.org/\$arch/core
+
+[extra]
+SigLevel = Never
+Server = http://mirror.archlinuxarm.org/\$arch/extra
 CONF
 
 unset LD_PRELOAD
