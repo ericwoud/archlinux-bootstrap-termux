@@ -37,6 +37,10 @@ CheckSpace
 [core]
 SigLevel = Never
 Server = http://mirror.archlinuxarm.org/\$arch/core
+
+[extra]
+SigLevel = Never
+Server = http://mirror.archlinuxarm.org/\$arch/extra
 CONF
 
 proot --link2symlink pacman --config pacman.conf \
